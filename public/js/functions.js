@@ -56,25 +56,17 @@ jQuery(document).ready(function($) {
 	-------------------------------------------------------------------*/
 	$('#time_countdown').countDown({
 
-        // targetDate: {
-        //     'day': 30,
-        //     'month': 9,
-        //     'year': 2015,
-        //     'hour': 0,
-        //     'min': 0,
-        //     'sec': 0
-        // },
-        // omitWeeks: true
+		targetDate: {
+		    'day': 19,
+		    'month': 1,
+		    'year': 2018,
+		    'hour': 24,
+		    'min': 0,
+		    'sec': 0
+		 },
+		 omitWeeks: true
 
-         targetOffset: {
-            'day':      0,
-            'month':    0,
-            'year':     1,
-            'hour':     0,
-            'min':      0,
-            'sec':      3
-		},
-		omitWeeks: true
+
 
 	    });
 
@@ -94,6 +86,19 @@ jQuery(document).ready(function($) {
   	$('.next-section .go-to-page-top').click(function() {
     	$('html,body').animate({scrollTop:$('#page-top').offset().top}, 1000);
   	});
+
+		$('.nav .navbar-nav .go-to-about').click(function() {
+				$('html,body').animate({scrollTop:$('#about').offset().top}, 1000);
+			});
+			$('.nav .navbar-nav .go-to-subscribe').click(function() {
+				$('html,body').animate({scrollTop:$('#subscribe').offset().top}, 1000);
+			});
+			$('.nav .navbar-nav .go-to-contact').click(function() {
+				$('html,body').animate({scrollTop:$('#contact').offset().top}, 1000);
+			});
+			$('.nav .navbar-nav .go-to-page-top').click(function() {
+				$('html,body').animate({scrollTop:$('#page-top').offset().top}, 1000);
+			});
 
   	/* Next Section End
 	-------------------------------------------------------------------*/
@@ -127,104 +132,6 @@ jQuery(document).ready(function($) {
 
 
 
-	/* Contact
-	-------------------------------------------------------------------*/
-    // Email from Validation
-  $('#contact-submit').click(function(e){
-
-    //Stop form submission & check the validation
-    e.preventDefault();
-
-
-    $('.first-name-error, .last-name-error, .contact-email-error, .contact-subject-error, .contact-message-error').hide();
-
-    // Variable declaration
-    var error = false;
-    var k_first_name = $('#first_name').val();
-    var k_last_name = $('#last_name').val();
-    var k_email = $('#contact_email').val();
-    var k_subject = $('#subject').val();
-    var k_message = $('#message').val();
-
-    // Form field validation
-    if(k_first_name.length == 0){
-      var error = true;
-      $('.first-name-error').html('<i class="fa fa-exclamation"></i> First name is required.').fadeIn();
-    }
-
-    if(k_last_name.length == 0){
-      var error = true;
-      $('.last-name-error').html('<i class="fa fa-exclamation"></i> Last name is required.').fadeIn();
-    }
-
-    if(k_email.length != 0 && validateEmail(k_email)){
-
-    } else {
-      var error = true;
-      $('.contact-email-error').html('<i class="fa fa-exclamation"></i> Please enter a valid email address.').fadeIn();
-    }
-
-    if(k_subject.length == 0){
-      var error = true;
-     $('.contact-subject-error').html('<i class="fa fa-exclamation"></i> Subject is required.').fadeIn();
-    }
-
-    if(k_message.length == 0){
-      var error = true;
-      $('.contact-message-error').html('<i class="fa fa-exclamation"></i> Please provide a message.').fadeIn();
-    }
-
-    // If there is no validation error, next to process the mail function
-    if(error == false){
-
-        $('#contact-submit').hide();
-        $('#contact-loading').fadeIn();
-        $('.contact-error-field').fadeOut();
-
-
-      // Disable submit button just after the form processed 1st time successfully.
-      $('#contact-submit').attr({'disabled' : 'true', 'value' : 'Sending' });
-
-      /* Post Ajax function of jQuery to get all the data from the submission of the form as soon as the form sends the values to email.php*/
-      $.post("php/contact.php", $("#contact-form").serialize(),function(result){
-        //Check the result set from email.php file.
-        if(result == 'sent'){
-
-
-
-          //If the email is sent successfully, remove the submit button
-          $('#first_name').remove();
-          $('#last_name').remove();
-          $('#contact_email').remove();
-          $('#subject').remove();
-          $('#message').remove();
-          $('#contact-submit').remove();
-
-          $('.contact-box-hide').slideUp();
-          $('.contact-message').html('<i class="fa fa-check contact-success"></i><div>Your message has been sent.</div>').fadeIn();
-        } else {
-          $('.btn-contact-container').hide();
-          $('.contact-message').html('<i class="fa fa-exclamation contact-error"></i><div>Something went wrong, please try again later.</div>').fadeIn();
-
-        }
-      });
-    }
-  });
-
-
-  function validateEmail(sEmail) {
-    var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
-    if (filter.test(sEmail)) {
-      return true;
-    } else {
-      return false;
-    }
-  }
-
-
-	/* Contact End
-	-------------------------------------------------------------------*/
-
 
 
 
@@ -235,15 +142,4 @@ jQuery(document).ready(function($) {
 });
 
 /* Document Ready function End
--------------------------------------------------------------------*/
-
-
-/* Preloder
--------------------------------------------------------------------*/
-$(window).load(function () {
-    "use strict";
-    $("#loader").fadeOut();
-    $("#preloader").delay(350).fadeOut("slow");
-});
- /* Preloder End
 -------------------------------------------------------------------*/

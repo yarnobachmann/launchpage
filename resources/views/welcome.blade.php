@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>	Kite Coming Soon HTML Template</title>
+	<title>	Fluffy Game Studios</title>
 	<meta name="description" content="Kite Coming Soon HTML Template by Jewel Theme" >
 	<meta name="author" content="Jewel Theme">
 
@@ -27,58 +27,18 @@
 <body>
 
 
-	<!-- Preloader -->
-	<div id="preloader">
-		<div id="loader">
-			<div class="dot"></div>
-			<div class="dot"></div>
-			<div class="dot"></div>
-			<div class="dot"></div>
-			<div class="dot"></div>
-			<div class="dot"></div>
-			<div class="dot"></div>
-			<div class="dot"></div>
-			<div class="lading"></div>
-		</div>
-	</div><!-- /#preloader -->
-	<!-- Preloader End-->
-
-
-	<!-- Main Menu -->
-	<div id="main-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
-
-		<div class="navbar-header">
-			<!-- responsive navigation -->
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<i class="fa fa-bars"></i>
-			</button> <!-- /.navbar-toggle -->
-
-		</div> <!-- /.navbar-header -->
-
-		<nav class="collapse navbar-collapse">
-			<!-- Main navigation -->
-			<ul id="headernavigation" class="nav navbar-nav">
-				<li class="active"><a href="#page-top">Home</a></li>
-				<li><a href="#about">Over</a></li>
-				<li><a href="#subscribe">Team</a></li>
-				<li><a href="#contact">Opdracht</a></li>
-			</ul> <!-- /.nav .navbar-nav -->
-		</nav> <!-- /.navbar-collapse  -->
-	</div><!-- /#main-menu -->
-	<!-- Main Menu End -->
-
 
 	<!-- Page Top Section -->
-	<section id="page-top" class="section-style" data-background-image="/images/background/page-top.jpg">
+	<section id="page-top" class="section-style" data-background-image="/images/platform.png">
 		<div class="pattern height-resize">
 			<div class="container">
+
 				<h1 class="site-title">
-					Kite
+					<img src="/images/logo/fluffy.png" alt="">
 				</h1><!-- /.site-title -->
 				<h3 class="section-name">
 					<span>
-						Fluffy the game
+						Fluffy Games
 					</span>
 				</h3><!-- /.section-name -->
 				<h2 class="section-title">
@@ -90,7 +50,7 @@
 						<div class="time-box">
 							<div class="time-box-inner dash days_dash animated" data-animation="rollIn" data-animation-delay="300">
 								<span class="time-number">
-									<span class="digit">0</span>
+									<!-- <span class="digit">0</span> -->
 									<span class="digit">0</span>
 									<span class="digit">0</span>
 								</span>
@@ -128,7 +88,7 @@
 							<div class="time-box-inner dash seconds_dash animated" data-animation="rollIn" data-animation-delay="1200">
 								<span class="time-number">
 									<span class="digit">0</span>
-									<span class="digit">0</span>
+									<span  class="digit">0</span>
 								</span>
 								<span class="time-name">Seconden</span>
 							</div>
@@ -137,10 +97,12 @@
 
 				</div><!-- /.time-count-container -->
 
+				 <div class="DateDiv">
+					<span class="DateRange">20/1/2018 to 12/12/2019</span>
 				<p class="time-until">
-					<span>Tijd tot lancering</span>
+					<a href="#" > <span>Download de Game</span></a>
 				</p><!-- /.time-until -->
-
+				</div>
 
 
 				<div class="next-section">
@@ -154,7 +116,7 @@
 
 
 	<!-- About Us Section -->
-	<section id="about" class="section-style" data-background-image="/images/background/about-us.jpg">
+	<section id="about" class="section-style" data-background-image="/images/towerdef.png">
 		<div class="pattern height-resize">
 			<div class="container">
 				<h3 class="section-name">
@@ -163,10 +125,12 @@
 					</span>
 				</h3><!-- /.section-name -->
 				<h2 class="section-title">
-					We Are dedicated
+					Wij zijn Fluffy Games Studios
 				</h2><!-- /.Section-title  -->
 				<p class="section-description">
-					Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+					Wij zijn studenten MBO Applicatieontwikkeling van het DrentheCollege. We hebben een opdracht gekregen om iets vets te maken, Dus maken we een Game in unity. Wij zijn van plan om een game te maken met daarin 2 mini-games en een bijbehorend keuzemenu.
+					De eerste mini-game is ‘Fluffy Adventure’, een soort platformer game zoals Mario, waarbij je als een real life karakter van onszelf kunt spelen. Bij het starten van deze mini-game krijg je als eerst de keuze wie je in het spel wilt zijn. In het spel moet er iemand gered worden en een eindbaas verslagen worden. Ook zullen er power ups komen waardoor je weer een deel van je levens terug krijgt. Er zullen ook vijanden zijn die je uit kan schakelen door er op te springen.
+					De tweede mini-game is `Fluffy Defense`. Dit is een game waarbij je turrets (gevechtstorens) neer kunt zetten met in-game geld. Met deze turrets bescherm je je toren tegen vijanden die je toren neer proberen te halen.
 				</p><!-- /.section-description -->
 
 
@@ -185,19 +149,18 @@
 
 
 	<!-- Subscribe Section -->
-	<section id="subscribe" class="section-style" data-background-image="/images/background/newsletter.jpg">
+	<section id="subscribe" class="section-style" data-background-image="/images/team.jpg">
 		<div class="pattern height-resize">
 			<div class="container">
 				<h3 class="section-name">
 					<span>
-						Subscribe
+						Het Team
 					</span>
 				</h3><!-- /.section-name -->
 				<h2 class="section-title">
-					Our Newsletter
+					Maak kennis met het Team.
 				</h2><!-- /.Section-title  -->
 				<p class="section-description">
-					Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
 				</p><!-- /.section-description -->
 
 				<div class="team-container">
@@ -205,11 +168,11 @@
 						<div class="col-sm-4">
 							<div class="team-member">
 								<figure>
-									<img src="/images/team/team-member-1.jpg" alt="Team Member">
+									<img src="https://escmid.pulselinks.com/Content/images/defalt-person-placeholder-pic.png" alt="Team Member">
 									<figcaption>
-										<p class="member-name">John Doe</p>
+										<p class="member-name">Yarno Bachmann</p>
 										<p class="designation">
-											CEO
+											Ontwikkelaar
 										</p><!-- /.designation -->
 
 									</figcaption>
@@ -248,13 +211,13 @@
 						<div class="col-sm-4">
 							<div class="team-member">
 								<figure>
-									<img src="/images/team/team-member-2.jpg" alt="Team Member">
+									<img src="https://escmid.pulselinks.com/Content/images/defalt-person-placeholder-pic.png" alt="Team Member">
 									<figcaption>
 										<p class="member-name">
-											Claudia Springer
+											Collin Lambers
 										</p><!-- /.member-name -->
 										<p class="designation">
-											Designer
+											Ontwikkelaar
 										</p><!-- /.designation -->
 
 									</figcaption>
@@ -293,13 +256,13 @@
 						<div class="col-sm-4">
 							<div class="team-member">
 								<figure>
-									<img src="/images/team/team-member-3.jpg" alt="Team Member">
+									<img src="https://escmid.pulselinks.com/Content/images/defalt-person-placeholder-pic.png" alt="Team Member">
 									<figcaption>
 										<p class="member-name">
-											Max Anthony
+											Robert Smeman
 										</p><!-- /.member-name -->
 										<p class="designation">
-											Developer
+											Ontwikkelaar
 										</p><!-- /.designation -->
 
 									</figcaption>
@@ -334,10 +297,100 @@
 							</div><!-- /.team-member -->
 						</div><!-- /.col-sm-4 -->
 					</div><!-- /.row -->
+				</div>
+<div class="team-container">
+					<div class="col-sm-4">
+						<div class="team-member">
+							<figure>
+								<img src="https://escmid.pulselinks.com/Content/images/defalt-person-placeholder-pic.png" alt="Team Member">
+								<figcaption>
+									<p class="member-name">
+										Arjen Schoonewille
+									</p><!-- /.member-name -->
+									<p class="designation">
+										Ontwikkelaar
+									</p><!-- /.designation -->
+
+								</figcaption>
+							</figure>
+							<div class="social-btn-container">
+								<div class="team-socail-btn">
+									<span class="social-btn-box facebook-btn-container">
+										<a href="#" class="facebook-btn">
+											<i class="fa fa-facebook"></i>
+										</a><!-- /.facebook-btn -->
+									</span><!-- /.social-btn-box -->
+
+									<span class="social-btn-box twitter-btn-container">
+										<a href="#" class="twitter-btn">
+											<i class="fa fa-twitter"></i>
+										</a><!-- /.twitter-btn -->
+									</span><!-- /.social-btn-box -->
+
+									<span class="social-btn-box linkedin-btn-container">
+										<a href="#" class="linkedin-btn">
+											<i class="fa fa-linkedin"></i>
+										</a><!-- /.linkedin-btn -->
+									</span><!-- /.social-btn-box -->
+
+									<span class="social-btn-box github-btn-container">
+										<a href="#" class="github-btn">
+											<i class="fa fa-github-alt"></i>
+										</a><!-- /.github-btn -->
+									</span><!-- /.social-btn-box -->
+								</div><!-- /.team-socail-btn -->
+							</div><!-- /.social-btn-container -->
+						</div><!-- /.team-member -->
+					</div><!-- /.col-sm-4 -->
+
+					<div class="col-sm-4">
+						<div class="team-member">
+							<figure>
+								<img src="https://escmid.pulselinks.com/Content/images/defalt-person-placeholder-pic.png" alt="Team Member">
+								<figcaption>
+									<p class="member-name">
+										Bart Rosing
+									</p><!-- /.member-name -->
+									<p class="designation">
+										Ontwikkelaar
+									</p><!-- /.designation -->
+
+								</figcaption>
+							</figure>
+							<div class="social-btn-container">
+								<div class="team-socail-btn">
+									<span class="social-btn-box facebook-btn-container">
+										<a href="#" class="facebook-btn">
+											<i class="fa fa-facebook"></i>
+										</a><!-- /.facebook-btn -->
+									</span><!-- /.social-btn-box -->
+
+									<span class="social-btn-box twitter-btn-container">
+										<a href="#" class="twitter-btn">
+											<i class="fa fa-twitter"></i>
+										</a><!-- /.twitter-btn -->
+									</span><!-- /.social-btn-box -->
+
+									<span class="social-btn-box linkedin-btn-container">
+										<a href="#" class="linkedin-btn">
+											<i class="fa fa-linkedin"></i>
+										</a><!-- /.linkedin-btn -->
+									</span><!-- /.social-btn-box -->
+
+									<span class="social-btn-box github-btn-container">
+										<a href="#" class="github-btn">
+											<i class="fa fa-github-alt"></i>
+										</a><!-- /.github-btn -->
+									</span><!-- /.social-btn-box -->
+								</div><!-- /.team-socail-btn -->
+							</div><!-- /.social-btn-container -->
+						</div><!-- /.team-member -->
+					</div><!-- /.col-sm-4 -->
+
 
 				</div><!-- /.team-container -->
 
-					<div class="next-section">
+					<div class="next-section col-sm-12">
 						<a class="go-to-contact"><span></span></a>
 					</div><!-- /.next-section -->
 
@@ -350,51 +403,22 @@
 
 
 		<!-- Contact Section -->
-		<section id="contact" class="section-style" data-background-image="/images/background/contact.jpg">
+		<section id="contact" class="section-style" data-background-image="/images/dc.jpg">
 			<div class="pattern height-resize">
 				<div class="container">
 					<h3 class="section-name">
 						<span>
-							Contact
+							Het Project.
 						</span>
 					</h3><!-- /.section-name -->
 					<h2 class="section-title">
-						Get in Touch
+						Opdracht van DC
 					</h2><!-- /.Section-title  -->
 					<p class="section-description">
-						Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+						De opdracht is om met een groep collega's met gelijke intresse een project te maken binnen 7 weken. Wij zijn een groepje van 5 gevormt, met de intresse om iets te maken in unity met behulp van C#.
+						Hier moesten we een plan van aanpak etc. maken, en laten goedkeuren. Ook moeten wij een logboek bij houden hoeveel uur we overal aan besteden.
 					</p><!-- /.section-description -->
 
-					<form id="contact-form" action="email.php" method="post" class="clearfix">
-						<div class="contact-box-hide">
-							<div class="col-sm-6">
-								<input type="text"  class="form-control" id="first_name" name="first_name" required placeholder="First Name">
-								<span class="first-name-error"></span>
-							</div>
-							<div class="col-sm-6">
-								<input type="text"  class="form-control" id="last_name" name="last_name" required placeholder="Last Name">
-								<span class="last-name-error"></span>
-							</div>
-							<div class="col-sm-6">
-								<input type="email" class="form-control"  id="contact_email" name="contact_email" required placeholder="Email Address">
-								<span class="contact-email-error"></span>
-							</div>
-							<div class="col-sm-6">
-								<input type="text"  class="form-control" id="subject" name="contact_subject" required placeholder="Subject">
-								<span class="contact-subject-error"></span>
-							</div>
-							<div class="col-sm-10">
-								<textarea class="form-control" rows="5" id="message" name="message" required placeholder="Message"></textarea>
-								<span class="contact-message-error"></span>
-							</div>
-							<div class="col-sm-2">
-								<button id="contact-submit" class="btn custom-btn col-xs-12" type="submit" name="submit"><i class="fa fa-rocket"></i></button>
-								<span id="contact-loading" class="btn custom-btn col-xs-12"> <i class="fa fa-refresh fa-spin"></i> </span>
-							</div>
-						</div><!-- /.contact-box-hide -->
-						<div class="contact-message"></div>
-
-					</form><!-- /#contact-form -->
 
 					<div class="next-section">
 						<a class="go-to-page-top"><span></span></a>
@@ -410,15 +434,30 @@
 
 		<!-- Footer Section -->
 		<footer id="footer-section">
-			<p class="copyright">
-				&copy; <a href="http://jeweltheme.com/html/kite/">Kite</a> 2014-2015, All Rights Reserved. Designed by & Developed by <a href="http://jeweltheme.com">Jewel Theme</a>
+			<p class="copyright" style="float:right;">
+				&copy; Fluffy Game Studios 2017-2018
+
 			</p>
+			<img id="unity" src="/images/unity.png" alt="">
 		</footer>
 		<!-- Footer Section End -->
 
 
 		<!-- jQuery Library -->
 		<script type="text/javascript" src="/js/jquery-2.1.0.min.js"></script>
+		<script type="text/javascript">
+		$(function() {
+	$(".DateDiv").each(function(index) {
+			var sRange = $(this).find(".DateRange").html();
+			var arrTemp = sRange.split(" to ");
+			var dtFrom = new Date(arrTemp[0]);
+			var dtTo = new Date(arrTemp[1]);
+			var dtNow = new Date();
+			if (dtNow >= dtFrom && dtNow <= dtTo)
+					$(this).show();
+				});
+		});
+		</script>
 		<!-- Modernizr js -->
 		<script type="text/javascript" src="/js/modernizr-2.8.0.min.js"></script>
 		<!-- Plugins -->
@@ -427,6 +466,8 @@
 		<script type="text/javascript" src="/js/functions.js"></script>
 		<!-- Custom JavaScript Functions -->
 		<script type="text/javascript" src="/js/jquery.ajaxchimp.min.js"></script>
+
+
 
 	</body>
 	</html>
